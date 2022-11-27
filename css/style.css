@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E8F5FA;
+  width: 100%;
+}
+
+.boutton {
+  position: absolute;
+  top: 65%;
+  left: 43%;
+}
+
+.perso {
+  position: absolute;
+  left: 31%;
+  top: 15%;
+}
+
+.perso_grand {
+  width: 110%;
+}
+
+.objet {
+  position: absolute;
+  left: 12%;
+  top: 10%;
+}
+
+.objet_volant {
+  width: 140%;
+}/*# sourceMappingURL=style.css.map */

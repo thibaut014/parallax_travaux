@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Parallax.js | Simple Example</title>
+
+		<!-- Behavioral Meta Data -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1,
+			maximum-scale=1, user-scalable=no">
+
+		<!-- Styles -->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+	</head>
+	<body>
+		<div id="container" class="container">
+
+			<div id="perso" class="scene perso">
+				<div data-depth="1.00"><img class="perso_grand" src="perso.png"></div>
+			</div>
+
+			<div id="objet" class="scene objet">
+				<div data-depth="0.80"><img class="objet_volant" src="objet.png"></div>
+			</div>
+
+			<div id="boutton" class="scene boutton">
+				<div data-depth="0.60"><img src="boutton.png"></div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="parallax.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
